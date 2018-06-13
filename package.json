@@ -1,0 +1,36 @@
+{
+  "name": "myreads",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "describe",
+      "test",
+      "expect",
+      "jest"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0"
+  }
+}
